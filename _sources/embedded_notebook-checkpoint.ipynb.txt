@@ -1,0 +1,112 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "d36b3afe-bda6-480d-8304-056bc0ad579f",
+   "metadata": {},
+   "source": [
+    "## Types of beans"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "785ae1bb-4010-4df2-8d60-6f60d8e345c2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "string_bean = 'bean'\n",
+    "\n",
+    "type(string_bean)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ac79f641-aff9-4a11-9d47-4478a1e79336",
+   "metadata": {},
+   "source": [
+    "## Bean theory"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "cdd2c9a9-25f8-4847-9b92-b6bc7eff4b80",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def human_beans(soil_water_sunshine_air):\n",
+    "    \"\"\" \"The matter with human beans,\" the BFG went on, \"is that they is absolutely \n",
+    "    refusing to believe in anything unless they is actually seeing it right in front \n",
+    "    of their own schnozzles.”  ― Roald Dahl, The BFG\n",
+    "    \n",
+    "    :param soil_water_sunshine_air:            Atoms with a preference\n",
+    "    \n",
+    "    :return:                                   A different Pythagorean theorem\n",
+    "    \n",
+    "    \"\"\"\n",
+    "\n",
+    "    return ''.join([soil_water_sunshine_air[i] for i in range(len(soil_water_sunshine_air)-1, 1, -1) if i%2 == 0]).replace('z', ' ')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "0ea690bf-ef24-4b0c-883b-7ec90f8cbde4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'beans have a soul'"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# atoms with a preference\n",
+    "soil_water_sunshine_air = \"qvltuiopsczeaezeeavoaqhkznsanlaeecb\"\n",
+    "\n",
+    "# the Pythagorean theorem\n",
+    "c = human_beans(soil_water_sunshine_air)\n",
+    "\n",
+    "c\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "py3.9.4_ml",
+   "language": "python",
+   "name": "py3.9.4_ml"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
