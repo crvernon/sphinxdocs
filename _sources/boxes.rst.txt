@@ -3,6 +3,7 @@ boxes how-to
 
 .. note::
 
-  “So the music is saying something to them. It is sending a message. I do not think the ``human_beans()`` is knowing what that message is, but they is loving it just the same.”
+  “A writer is like a bean plant - he has his little day,
+    and then gets stringy.""  - E.B. White 
 
-  ― **Roald Dahl**, *The BFG*
+  ― **E.B. White**
