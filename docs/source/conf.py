@@ -44,9 +44,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     'sphinx.ext.autosectionlabel',
-    'sphinx_rtd_theme',
-    'sphinx_panels',
-    'sphinx-mathjax-offline'
+    'nbsphinx'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

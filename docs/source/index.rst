@@ -7,8 +7,12 @@ sphinxdocs topics
 =================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
+
+   embedded_notebook.ipynb
+   codeblock
+   boxes
 
 
 
